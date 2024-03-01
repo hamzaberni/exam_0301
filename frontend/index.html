@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Registration</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>User Registration</h1>
+    
+    <div id="registrationDiv">
+        <input type="text" id="email" required>
+        <button id="registration" type="submit">Registration</button>
+        
+    </div>
+
+    <div id="successMsg" class="success-message">
+        <p>Sikeres regisztráció!</p>
+        <button id="returnButton">Vissza a főoldalra</button>
+    </div>
+
+    <div id="errorMsg" class="error-message">
+        <p>Szerverhiba történt.</p>
+        <button id="hideButton">Elrejtés</button>
+
+    <p>Az email cím már foglalt.</p>
+        <button id="hideExistingUserErrorButton">Elrejtés</button>
+    
+    <p>Nem megfelelő adatok.</p>
+        <button id="hideValidationErrorButton">Elrejtés</button>
+
+    <p>Nincs internetkapcsolat.</p>
+        <button id="hideConnectionErrorButton">Elrejtés</button>
+
+    
+</body>
+</html>
